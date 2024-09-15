@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade aula 10</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .footer {
+            background-color: #e70c0c;
+            color: white;
+            padding: 10px;
+        }
+
+        .container {
+            padding: 10px;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .card-body {
+            padding: 1.25rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-danger text-white text-center py-3">
+        <h1>RBD INFO</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">RBD Informações</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Curiosidades</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://http2.mlstatic.com/D_790326-MLB46113799105_052021-C.jpg" alt="" class="img-fluid">
+                <p>RBD para a capa do álbum Nuestro Amor, 2005.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="https://pbs.twimg.com/media/GWQe5mvWEAAFSBz.jpg" alt="" class="img-fluid">
+                <p>RBD em photoshoot para a revista People En Español, 2007.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="https://pbs.twimg.com/profile_images/1774976349423144962/AJL2zcUN_400x400.jpg" alt="" class="img-fluid">
+                <p>RBD em photoshoot para a revista Rolling Stone, 2023.</p>
+            </div>
+        </div>
+    </main>
+
+    <div class="card mb-3">
+        <img src="https://jpimg.com.br/uploads/2023/08/design-sem-nome-3-11.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">RBD: sua carreira e trajetória</h5>
+            <p class="card-text">Trajetória resumida do grupo mexicano RBD.</p>
+            <p class="card-text"><small class="text-muted">RBD é um grupo vocal mexicano de música pop criado a partir da telenovela mexicana Rebelde. O grupo, composto originalmente por Alfonso Herrera, Anahí, Christian Chávez, Christopher von Uckermann, Dulce María e Maite Perroni, é tido como o grupo de maior êxito do pop mexicano e da América Latina.
+            O grupo deu início as suas atividades em 30 de setembro de 2004 com o lançamento do primeiro single de seu álbum de estreia, Rebelde, e encerrou suas atividades em 10 de março de 2009, após o lançamento de seu último álbum de estúdio, Para Olvidarte de Mí.
+            Em 2020, doze anos após o último show, o grupo se reuniu pela primeira vez e lançou o single "Siempre He Estado Aquí" para promover o concerto virtual Ser O Parecer: The Global Virtual Union. Os integrantes Alfonso Herrera e Dulce María não participaram dos projetos por questões pessoais. Em 2023, eles se reuniram para uma turnê comemorativa, a Soy Rebelde Tour. Desta vez, apenas Herrera não participou do projeto. A turnê se tornou a segunda turnê de maior bilheteria de todos os tempos por um artista latino e a turnê com a maior bilheteria por um grupo latino na história com mais de 230 milhões de dólares em bilheteria.
+            A banda conseguiu múltiplos discos de platina, ouro e diamante, realizou turnês pela América e Europa, visitou mais de 23 países e cantou em 116 cidades, incluindo em cenários de importância mundial como o Estádio do Maracanã e o Estádio Olímpico Nilton Santos no Rio de Janeiro; o Allianz Parque e o Estádio do Morumbi em São Paulo; o Memorial Coliseum e o BMO Stadium em Los Angeles; o Madison Square Garden em Nova Iorque; o Estádio Vicente Calderón em Madrid e o Foro Sol e o Estádio Azteca na Cidade do México, vendendo mais de 4 milhões de ingressos em seus concertos. A marca RBD fabrica produtos como bonecas, cadernos, gomas de mascar, produtos para higiene e alimentos, além de uma revista editada no México, Romênia, Espanha e Brasil, arrecadando mais de 30 milhões de dólares com merchandising, de acordo com a EMI.
+            </small></p>
+        </div>
+    </div>
+
+    <footer class="footer text-center">
+        <p>&copy; <span id="year"></span> Minha Página Web. Todos os direitos reservados. Desenvolvido por Pâmella N. G. Faustino, na data 15/09/2024.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
